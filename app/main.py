@@ -18,3 +18,4 @@ def create_person_list(people: list) -> list:
         if person.get("husband"):
             obj.husband = Person.people[person["husband"]]
     return persons
+
