@@ -1,7 +1,7 @@
 class Person:
     people = dict()
 
-    def __init__(self, name, age):
+    def __init__(self, name, age) -> None:
         self.name = name
         self.age = age
         self.people[name] = self
